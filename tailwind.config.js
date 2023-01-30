@@ -6,11 +6,16 @@ module.exports = {
       fontFamily:{
         'sawarabi': ["'Sawarabi Mincho'", 'serif'],
         'karla': ["'Karla'", 'sans-serif'],
-        'Montserrat': ["'Montserrat'", 'sans-serif']
+        'Montserrat': ["'Montserrat'", 'sans-serif'],
+        'Plus Jakarta Sans':["'Plus Jakarta Sans'", 'sans-serif'],
+        'Inter': ["'Inter'", 'sans-serif']
+
       },
       colors:{
         'off-white': 'F5F5F5',
         'my-grey': 'EEF0F2',
+        'snow': 'fffbfe',
+        'cream': 'fffcf4'
       }
     },
   },
