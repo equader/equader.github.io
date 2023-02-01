@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'media',
   content: ["./dist/*.{html,js}"],
   theme: {
     extend: {
@@ -8,7 +9,8 @@ module.exports = {
         'karla': ["'Karla'", 'sans-serif'],
         'Montserrat': ["'Montserrat'", 'sans-serif'],
         'Plus Jakarta Sans':["'Plus Jakarta Sans'", 'sans-serif'],
-        'Inter': ["'Inter'", 'sans-serif']
+        'Inter': ["'Inter'", 'sans-serif'],
+        'Roboto': ["'Roboto'", 'sans-serif']
 
       },
       colors:{
