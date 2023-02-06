@@ -5,12 +5,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        'sawarabi': ["'Sawarabi Mincho'", 'serif'],
         'karla': ["'Karla'", 'sans-serif'],
         'Montserrat': ["'Montserrat'", 'sans-serif'],
-        'Plus Jakarta Sans':["'Plus Jakarta Sans'", 'sans-serif'],
         'Inter': ["'Inter'", 'sans-serif'],
-        'Roboto': ["'Roboto'", 'sans-serif']
+        'DMSans': ["'DM Sans'", 'sans-serif'],
+        'DMMono': ["'DM Mono'", 'monospace']
 
       },
       colors:{

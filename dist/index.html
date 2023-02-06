@@ -5,37 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="output.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Karla:wght@200;600&family=Montserrat&family=Plus+Jakarta+Sans:wght@400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Karla:wght@200;600&family=Montserrat&display=swap" rel="stylesheet">
     <title>IT Consultant - Eshaan Mahimkar</title>
     <link rel="icon" href="img/Main Icon.png" type="image/png"/>
   </head>
-  <body class="bg-white text-black" > 
+  <body class="bg-white text-black font-DMMono" > 
+    
     <section class="">
       <!--NAVBAR-->
-      <nav class="relative container mx-auto p-6 top-0 font-karla">
-        <!--Flex container-->
-        <div class="flex items-center justify-between">
+      <nav class="bg-white px-2 sm:px-4 py-4 fixed w-full z-20 top-0 left-0">
+        <div class="container flex flex-wrap items-center justify-between mx-auto">
           <!--logo thing-->
           <div class="pt-2">
-            <h1 class="font-Montserrat font-bold text-lg text-black">Eshaan Mahimkar.</h1>
+            <h1 class="font-DMSans font-bold text-lg text-black">Eshaan Mahimkar.</h1>
           </div>
           <!--Menu items-->
-          <div class="text-lg font-Montserrat font-bold text-mhidden md:flex space-x-6">
-            <a href="index.html" class="font-bold text-zinc-300 hover:text-blue-900">work</a>
+          <div class="text-lg font-DMSans font-bold text-mhidden md:flex space-x-6">
+            <a href="index.html" class="font-bold text-[#314458] hover:text-blue-900">home</a>
             <a href="about.html" class=" text-black hover:text-blue-900">about</a>
+            <a href="about.html" class=" text-black hover:text-blue-900">work</a>
           </div>
         </div>
       </nav>
     </section>
 
+    
+
     <!--HERO-->
-    <div class="py-10 sm:py-10 lg:py-10 flex place-items-center">
+    <div class="py-10 mt-6 sm:py-10 lg:py-10 flex place-items-center ">
       <div class="text-center mx-auto inline-block">
-        <h1 class="font-Montserrat font-bold text-5xl mb-5 lg:text-5xl leading-tight max-w-3xl tracking-tight mt-6 mx-auto"> <span class="underline decoration-blue-100 underline-offset-4">IT consultant</span> and <span class="underline decoration-blue-100 underline-offset-4">aspiring developer.</span></h1>
-        <p class="max-w-3xl font-karla font-bold leading-loose mx-auto lg:text-xl  mt-8">Howdy, I'm Eshaan a recent UTS graduate based in Sydney, Australia with a passion for solving complex problems and improving others through design and development.</p>
+        <h1 class="font-DMSans font-bold text-5xl mb-5 lg:text-5xl leading-tight max-w-3xl tracking-tight mt-6 mx-auto"> <span class="underline decoration-blue-100 underline-offset-4">IT consultant</span> and <span class="underline decoration-blue-100 underline-offset-4">aspiring developer.</span></h1>
+        <p class="max-w-3xl font-DMMono font-medium leading-loose mx-auto lg:text-xl  mt-8">Howdy, I'm Eshaan a recent UTS graduate based in Sydney, Australia with a passion for solving complex problems and improving others through design and development.</p>
         <div class="py-2 z-1 px-6 inline-flex mx-auto items-center justify-center">
             <svg class="max-w-full h-auto" xmlns="http://www.w3.org/2000/svg" width="469" height="469" viewBox="0 0 469 469" fill="none">
                 <g clip-path="url(#clip0_302_776)">
@@ -86,12 +88,13 @@
     </div>
 
 
+
+
     <!--SKILLS-->
-    <section class="dark:bg-slate-50 py-10 text-white bg-gradient-to-tr from-violet-600 to-blue-400 sm:py-10 lg:py-10 font-karla font-bold">
+    <section class="bg-[#314458] text-white sm:py-10 lg:py-10 font-DMMono font-bold">
         <div class="px-4 py-4 mx-auto max-w-7xl sm:px-6 lg:px-8 rounded-lg">
             <div class="max-w-2xl mx-auto text-center">
-                <h1 class="font-Montserrat font-bold text-5xl mb-5 lg:text-5xl leading-tight max-w-3xl tracking-tight mt-6 mx-auto">What I do</h1>
-                <p class="text-center max-w-3xl font-karla font-bold leading-loose mx-auto lg:text-xl mt-8">Things I specialise in and look to continue to grow</p>
+                <h1 class="font-DMSans font-medium text-5xl mb-5 lg:text-5xl leading-tight max-w-3xl tracking-tight mt-6 mx-auto">What I do</h1>
             </div>
     
             <div class="relative mt-12 lg:mt-20">
@@ -106,8 +109,8 @@
                                 <path d="M26.4603 2H23.5404L7.04041 18.5L6.72034 18.9399L2.00037 27.1799L4.82043 30L13.0604 25.28L13.5004 24.96L30.0004 8.45996V5.54004L26.4603 2ZM4.82043 27.1799L7.84045 21.1799L10.7404 24.0801L4.82043 27.1799ZM12.4803 23.0601L8.94031 19.52L24.9403 3.52002L28.4803 7.06006L12.4803 23.0601Z" fill="#424242"/>
                                 </svg>
                         </div>
-                        <h3 class="mt-6 text-xl font-semibold leading-tight md:mt-10">Design Thinking</h3>
-                        <p class="mt-4 text-base">I've contributed to projects through human-centered thinking, designing and facilitating projects from start to finish through the means of user interviews, workshop testing, wireframes and production ready designs.</p>
+                        <h3 class="mt-6 font-medium font-DMSans text-xl leading-tight md:mt-10">Design Thinking</h3>
+                        <p class="mt-4 font-normal font-DMMono">Embracing human-centered thinking through facilitating projects from start to finish through the means of user interviews, workshop testing, wireframes and production ready designs.</p>
                     </div>
     
                     <div>
@@ -116,8 +119,8 @@
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M3.00037 28H30.0004V26H4.00037V0H2.00037V27L3.00037 28ZM6.00037 23V7L7.00037 6H11.0004L12.0004 7V23L11.0004 24H7.00037L6.00037 23ZM10.0004 22V8H8.00037V22H10.0004ZM22.0004 3V23L23.0004 24H27.0004L28.0004 23V3L27.0004 2H23.0004L22.0004 3ZM26.0004 4V22H24.0004V4H26.0004ZM14.0004 23V11L15.0004 10H19.0004L20.0004 11V23L19.0004 24H15.0004L14.0004 23ZM18.0004 22V12H16.0004V22H18.0004Z" fill="#424242"/>
                                 </svg>
                         </div>
-                        <h3 class="mt-6 text-xl font-semibold leading-tight md:mt-10">Business Analysis</h3>
-                        <p class="mt-4 text-base text-center">I've been able to help build out end to end requirements for features and fully fledged products. Apart of this involved liasion with both internal and external stakeholders and presenting a final vision for clients.</p>
+                        <h3 class="mt-6 font-medium font-DMSans text-xl leading-tight md:mt-10">Business Analysis</h3>
+                        <p class="mt-4 font-normal font-DMMono">Developing end to end cases to help build out requirements for features and fully fledged products involving both internal and external stakeholders and presenting a final vision for clients.</p>
                     </div>
     
                     <div>
@@ -126,29 +129,79 @@
                                 <path d="M9.41637 11.156L4.12237 16.448L9.41637 21.74L8.00037 23.156L2.00037 17.156V15.74L8.00037 9.74L9.41637 11.156ZM23.4164 9.74L22.0004 11.156L27.2944 16.448L22.0004 21.74L23.4164 23.156L29.4164 17.156V15.74L23.4164 9.74ZM9.81637 26L11.6044 26.896L21.6044 6.896L19.8164 6L9.81637 26Z" fill="#424242"/>
                                 </svg>
                         </div>
-                        <h3 class="mt-6 text-xl font-semibold leading-tight md:mt-10">Software Development</h3>
-                        <p class="mt-4 text-base">In addition to leading and helping design solutions, I'm currently a novice programmer with a current interest in Python and front end frameworks. I look to continue growing in both areas and new.</p>
+                        <h3 class="mt-6 text-xl font-medium font-DMSans leading-tight md:mt-10">Software Development</h3>
+                        <p class="mt-4 font-normal font-DMMono">Designing and builidng out solutions. Experience in working in front end frameworks and backend databases and Python</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+
+    
+
     
 
     <!--PROJECTS-->
-    <section class="py-10 sm:py-10 lg:py-10 font-karla font-bold">
+    <section class="py-10 sm:py-10 lg:py-10 font-DMSans font-bold">
         <div class="px-4 py-4 mx-auto max-w-7xl sm:px-6 lg:px-8 rounded-lg">
             <div class="max-w-2xl mx-auto text-center">
-                <h1 class="font-Montserrat font-bold text-5xl mb-5 lg:text-5xl leading-tight max-w-3xl tracking-tight mt-6 mx-auto">See some of my <a href="#" class="underline decoration-blue-100 underline-offset-4"> work! </a></h1>
-                <p class="text-center max-w-3xl font-karla font-bold leading-loose mx-auto lg:text-xl mt-8">Get an inside look into my creative process and see what's come along.</p>
+                <h1 class="font-bold text-5xl mb-5 lg:text-5xl leading-tight max-w-3xl tracking-tight mt-6 mx-auto">Selected work and stories</h1>
             </div>
             <div class="mx-auto px-2 py-8">
-               <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2">
-                <div class="flex justify-center text-6xl border-1 hover:bg-red-700"><img class="w-full rounded-sm" src="https://images.unsplash.com/photo-1636657156745-338e53598328?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" /></div>
-               <div class="flex justify-center text-6xl border-1  hover:bg-red-700"><img class="w-full rounded-sm" src="https://images.unsplash.com/photo-1636657156745-338e53598328?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" /></div>
-               </div>
-               </div>
+               <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+                <div>
+                    <a href="#" title="" class="block aspect-w-4 aspect-h-3">
+                        <img class="object-cover w-full h-full" src="img/prpinkbg.png" alt="" />
+                    </a>
+                    <span class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-rose-500 bg-rose-100 mt-9"> Technology </span>
+                    <p class="mt-6 text-xl font-semibold">
+                        <a href="#" title="" class="text-black">How might we ensure people look after their posture in the most convenient and stylish way? </a>
+                    </p>
+                    <div class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"></div>
+                </div>
+                <div>
+                    <a href="#" title="" class="block aspect-w-4 aspect-h-3">
+                        <img class="object-cover w-full h-full" src="img/tsmar.png" alt="" />
+                    </a>
+                    <span class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-rose-500 bg-rose-100 mt-9"> Technology </span>
+                    <p class="mt-6 text-xl font-semibold">
+                        <a href="#" title="" class="text-black">How might we continue to market a university society focused on the broadness of IT?</a>
+                    </p>
+                    <div class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"></div>
+                </div>
+                <div>
+                    <a href="#" title="" class="block aspect-w-4 aspect-h-3">
+                        <img class="object-cover w-full h-full" src="img/nfpconsult.png" alt="" />
+                    </a>
+                    <span class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-rose-500 bg-rose-100 mt-9"> Technology </span>
+                    <p class="mt-6 text-xl font-semibold">
+                        <a href="#" title="" class="text-black">How might we allow an eco friendly NFP flourish in a digital world?</a>
+                    </p>
+                    <div class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"></div>
+                </div>
+                <div>
+                    <a href="#" title="" class="block aspect-w-4 aspect-h-3">
+                        <img class="object-cover w-full h-full" src="img/nfpdev2.png" alt="" />
+                    </a>
+                    <span class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-rose-500 bg-rose-100 mt-9"> Technology </span>
+                    <p class="mt-6 text-xl font-semibold">
+                        <a href="#" title="" class="text-black">How might we develop a software solution within the confines of an NFP?</a>
+                    </p>
+                    <div class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"></div>
+                </div>
+                <div>
+                    <a href="#" title="" class="block aspect-w-4 aspect-h-3">
+                        <img class="object-cover w-full h-full" src="img/bankdesign.png" alt="" />
+                    </a>
+                    <span class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-rose-500 bg-rose-100 mt-9"> Technology </span>
+                    <p class="mt-6 text-xl font-semibold">
+                        <a href="#" title="" class="text-black">How might we continue breathe new life into an archaic banking product?</a>
+                    </p>
+                    <div class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"></div>
+                </div>
+                
+            </div>
     
             
         </div>
@@ -167,35 +220,35 @@
     
     
     <!-- Foooter -->
-    <section>
+    <section class="bg-[#314458] text-white">
       <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
         <nav class="flex flex-wrap justify-center -mx-5 -my-2">
-          <h1 class="font-Montserrat text-xl font-bold">Let’s connect</h1>
+          <h1 class="font-DMsans text-xl font-bold">Let’s connect</h1>
         </nav>
         <nav class="flex flex-wrap justify-center -mx-5 -my-2">
-          <h1 class="font-karla text-l font-bold">Feel free to reach out to connect and say hello</h1>
+          <h1 class="font-DMMono text-l">Feel free to reach out to connect and say hello</h1>
         </nav>
         <div class="flex justify-center mt-8 space-x-6">
-          <a href="https://www.linkedin.com/in/eshaan-mahimkar/" class="text-black hover:text-gray-500">
+          <a href="https://www.linkedin.com/in/eshaan-mahimkar/" class="hover:text-gray-500">
             <span class="sr-only">LinkedIn</span>
             <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
               <path fill-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" clip-rule="evenodd"></path>
             </svg>
           </a>
-          <a href="#" class="text-black hover:text-gray-500">
+          <a href="#" class=" hover:text-gray-500">
             <span class="sr-only">Gmail</span>
             <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
               <path fill-rule="evenodd" d="M22.288 21h-20.576c-.945 0-1.712-.767-1.712-1.712v-13.576c0-.945.767-1.712 1.712-1.712h20.576c.945 0 1.712.767 1.712 1.712v13.576c0 .945-.767 1.712-1.712 1.712zm-10.288-6.086l-9.342-6.483-.02 11.569h18.684v-11.569l-9.322 6.483zm8.869-9.914h-17.789l8.92 6.229s6.252-4.406 8.869-6.229z" clip-rule="evenodd"></path>
             </svg>
           </a>
-          <a href="https://github.com/equader" class="text-black hover:text-gray-500">
+          <a href="https://github.com/equader" class=" hover:text-gray-500">
             <span class="sr-only">GitHub</span>
             <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
               <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
             </svg>
           </a>
         </div>
-        <p class="mt-8 font-karla font-bold leading-6 text-center text-black"> © 2023 Eshaan Mahimkar, Inc. All rights reserved. </p>
+        <p class="mt-8 font-dmmono leading-6 text-center"> © 2023 Eshaan Mahimkar, Inc. All rights reserved. </p>
       </div>
     </section>
   </body>
