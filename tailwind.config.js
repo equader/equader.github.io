@@ -4,6 +4,11 @@ module.exports = {
   content: ["./dist/*.{html,js}"],
   theme: {
     extend: {
+      translate: {
+        '0': '0',
+        '-full': '-100%',
+      },
+      
       fontFamily:{
         'karla': ["'Karla'", 'sans-serif'],
         'Montserrat': ["'Montserrat'", 'sans-serif'],
