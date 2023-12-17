@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html class="scroll-smooth hover:scroll-auto" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Karla:wght@200;600&family=Montserrat&display=swap" rel="stylesheet">
+    <title>IT Consultant - Eshaan Mahimkar</title>
+    <link rel="icon" href="img/Main Icon.png" type="image/png" />
+  </head>
+
+<body class="text-black font-karla">
+    <!--NAVBAR-->
+    <nav class="px-2 sm:px-4 py-4 fixed w-full z-20 top-0 left-0 transition-transform duration-500 transform bg-white">
+      <div class="container flex items-center justify-between mx-auto">
+        <!-- Logo -->
+        <div class="pt-2">
+          <h1 class="font-bold text-lg text-black">Eshaan Mahimkar.</h1>
+        </div>
+        <!-- Menu items -->
+        <div class="text-lg font-bold md:flex space-x-6">
+          <a href="index.html" class="text-[#314458] hover:text-gray-100">home</a>
+          <a href="#about" onclick="smoothScrollTo('#about')" class="text-black hover:text-gray-100">about</a>
+          <a href="#projects" onclick="smoothScrollTo('#projects')"class="text-black hover:text-gray-100">work</a>
+        </div>
+      </div>
+    </nav>
+
+        <!--JAVASCRIPT-->
+        <script>
+            // Debounce function to delay hiding the navbar
+            function debounce(func, delay) {
+                let timer;
+                return function () {
+                    clearTimeout(timer);
+                    timer = setTimeout(func, delay);
+                };
+            }
+      
+            let prevScrollPos = window.pageYOffset;
+            const navbar = document.querySelector('nav');
+      
+            function hideNavbarOnScroll() {
+                const currentScrollPos = window.pageYOffset;
+      
+                if (prevScrollPos > currentScrollPos || currentScrollPos === 0) {
+                    // Scrolling up or at the top, show the navigation bar
+                    navbar.classList.remove('-translate-y-full');
+                } else {
+                    // Scrolling down, hide the navigation bar
+                    navbar.classList.add('-translate-y-full');
+                }
+      
+                prevScrollPos = currentScrollPos;
+            }
+      
+            // Add event listener with debouncing (increased delay to 200ms)
+            window.addEventListener('scroll', debounce(hideNavbarOnScroll, 200));
+      
+            // Smooth scroll function
+            // Smooth scroll function
+          function smoothScrollTo(target) {
+              const targetElement = document.querySelector(target);
+              if (!targetElement) return;
+      
+              // Get the top offset of the target element relative to the document
+              const elementOffsetTop = targetElement.getBoundingClientRect().top;
+      
+              // Calculate the total offset by adding the current scroll position
+              const offset = elementOffsetTop + window.pageYOffset; // Adjust the value based on your layout
+      
+              window.scrollTo({
+                  top: offset,
+                  behavior: 'smooth'
+              });
+          }
+      
+            // Add a click event listener to all links with the smooth scroll class
+            const smoothScrollLinks = document.querySelectorAll('a[href^="#"]');
+            smoothScrollLinks.forEach(link => {
+                link.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    smoothScrollTo(this.getAttribute('href'));
+                });
+            });
+        </script>
+</body>

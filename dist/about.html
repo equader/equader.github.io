@@ -1,79 +1,166 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="scroll-smooth hover:scroll-auto" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="output.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Karla:wght@200;600&family=Montserrat&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-    <title>Eshaan's Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family==Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>IT Consultant - Eshaan Mahimkar</title>
+    <link rel="icon" href="img/Main Icon.png" type="image/png" />
   </head>
-  <body>
-    <section>
-      <!--NAVBAR-->
-      <nav class="relative container mx-auto p-6 top-0 font-karla">
-        <!--Flex container-->
-        <div class="flex items-center justify-between">
-          <!--logo thing-->
-          <div class="pt-2">
-            <h1 class="font-Montserrat font-bold text-lg">Eshaan Mahimkar.</h1>
-          </div>
-          <!--Menu items-->
-          <div class="text-lg font-Montserrat font-bold text-mhidden md:flex space-x-6">
-            <a href="index.html" class="font-bold text-zinc-300 hover:text-blue-900">work</a>
-            <a href="about.html" class="hover:text-blue-900">about</a>
-          </div>
-        </div>
-      </nav>
-    </section>
-    
-    <!--SMALL ABOUT-->
-    <div class="py-10 sm:py-10 lg:py-10 flex place-items-center bg-gray-50">
-      <section class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl flex place-items-center">
-        <div class="text-center mx-auto inline-block mb-8">
-          <h1 class="font-Montserrat font-bold text-5xl mb-5 lg:text-5xl leading-tight max-w-3xl tracking-tight mt-6 mx-auto"> A little about me.</h1>
-          <p class="text-justify max-w-3xl font-karla font-bold leading-loose mx-auto lg:text-xl mt-8"> Hey my name's Eshaan. I recently completed my three year Bachelor of IT degree at the University of Technology Sydney. Over the past three years I've been fortunate to engage in various projects, teams and work. During the time I discovered my passion for developing solutions. Whether architecting, designing or developing, I've enjoyed the process of making ideas a reality and seeing the impact often wild ideas can have upon people. </p>
-          <p class="text-justify max-w-3xl font-karla font-bold leading-loose mx-auto lg:text-xl mt-8"> Currently I'm about to start my position at KPMG as Tech Advisory graduate, where I'm hoping to not only share my own knowledge and experience, but grow immensley in both facets. </p>
-          <p class="text-justify max-w-3xl font-karla font-bold leading-loose mx-auto lg:text-xl mt-8"> In my spare time I enjoy reading, going to the gym or simply having a chat with my mates. Since I'm fortunate to live in Sydney, I'm also lucky to indulge in the plethora of beaches Sydney brags. </p>
-          <p class="text-justify max-w-3xl font-karla font-bold leading-loose mx-auto lg:text-xl mt-8"> Feel free to reach out to have a chat 🙂 </p>
 
+  <body class="bg-gradient-to-b from-white via-sky-100 text-white font-Inter">
+    <!--NAVBAR-->
+    <nav class="text-black bg-white bg-opacity-60 backdrop-blur-3xl px-2 sm:px-4 py-4 fixed w-full z-20 top-0 left-0 transition-transform duration-500">
+      <div class="container flex items-center justify-between mx-auto">
+        <!-- Logo -->
+        <div class="pt-2">
+          <h1 class="font-bold text-lg">Eshaan Mahimkar.</h1>
         </div>
-    </div>
+        <!-- Menu items -->
+        <div class="text-lg font-bold md:flex space-x-6">
+          <a href="index.html" class=" text-gray-500 hover:text-sky-400">work</a>
+          <a href="about.html">about</a>
+        </div>
+      </div>
+    </nav>
     
-    <!-- Foooter -->
-    <section class=" bg-gray-50">
-      <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
-        <nav class="flex flex-wrap justify-center -mx-5 -my-2">
-          <h1 class="font-Montserrat text-xl font-bold">Let’s connect</h1>
-        </nav>
-        <nav class="flex flex-wrap justify-center -mx-5 -my-2">
-          <h1 class="font-karla text-l font-bold">Feel free to reach out to connect and say hello</h1>
-        </nav>
-        <div class="flex justify-center mt-8 space-x-6">
-          <a href="https://www.linkedin.com/in/eshaan-mahimkar/" class="text-black hover:text-gray-500">
-            <span class="sr-only">LinkedIn</span>
-            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
-              <path fill-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" clip-rule="evenodd"></path>
-            </svg>
-          </a>
-          <a href="#" class="text-black hover:text-gray-500">
-            <span class="sr-only">Gmail</span>
-            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
-              <path fill-rule="evenodd" d="M22.288 21h-20.576c-.945 0-1.712-.767-1.712-1.712v-13.576c0-.945.767-1.712 1.712-1.712h20.576c.945 0 1.712.767 1.712 1.712v13.576c0 .945-.767 1.712-1.712 1.712zm-10.288-6.086l-9.342-6.483-.02 11.569h18.684v-11.569l-9.322 6.483zm8.869-9.914h-17.789l8.92 6.229s6.252-4.406 8.869-6.229z" clip-rule="evenodd"></path>
-            </svg>
-          </a>
-          <a href="https://github.com/equader" class="text-black hover:text-gray-500">
-            <span class="sr-only">GitHub</span>
-            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
-              <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
-            </svg>
-          </a>
+
+    <!--ABOUT-->
+    <section id="about" class="min-h-screen py-10">
+      <div class="text-black mx-auto max-w-screen-xl px-4 py-10 mt-6sm:py-12 sm:px-6 lg:py-16 lg:px-8">
+        <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+          <div
+            class="relative h-64 overflow-hidden sm:h-80 lg:order-last lg:h-full"
+          >
+            <img
+              alt="A photo of me enjoying the sunshine"
+              src="img/me at da beach.jpg"
+              class="rounded-xl absolute inset-0 h-full w-full object-scale-down"
+            />
+          </div>
+    
+          <div class="lg:py-24 px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold sm:text-4xl">About me</h2>
+    
+            <p class="mt-4 lg:text-2xl">
+              I am passionate about business and technology, and as a technology consultant, I relish the opportunity to tackle business challenges through tech solutions. With over three years of experience in digital design, front-end and back-end development, and business consulting, my journey of learning and growing in this field continues to be a rewarding adventure.
+            </p>
+          </div>
         </div>
-        <p class="mt-8 font-karla font-bold leading-6 text-center text-black"> © 2023 Eshaan Mahimkar, Inc. All rights reserved. </p>
       </div>
     </section>
+
+
+  
+  
+<!--SKILLS-->
+<section id="skills" class="min-h-screen">
+    <div class="container mx-auto my-auto px-4">
+      <h2 class="text-3xl font-bold text-center text-black mb-10">Skills and interests</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center text-black">
+        <!-- Skill 1 -->
+        <div class="p-6 drop-shadow-lg">
+          <svg class="h-16 w-16 mx-auto" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path d="M19.5,24a1,1,0,0,1-.929-.628l-.844-2.113-2.116-.891a1.007,1.007,0,0,1,.035-1.857l2.088-.791.837-2.092a1.008,1.008,0,0,1,1.858,0l.841,2.1,2.1.841a1.007,1.007,0,0,1,0,1.858l-2.1.841-.841,2.1A1,1,0,0,1,19.5,24ZM10,21a2,2,0,0,1-1.936-1.413L6.45,14.54,1.387,12.846a2.032,2.032,0,0,1,.052-3.871L6.462,7.441,8.154,2.387A1.956,1.956,0,0,1,10.108,1a2,2,0,0,1,1.917,1.439l1.532,5.015,5.03,1.61a2.042,2.042,0,0,1,0,3.872h0l-5.039,1.612-1.612,5.039A2,2,0,0,1,10,21Zm.112-17.977L8.2,8.564a1,1,0,0,1-.656.64L2.023,10.888l5.541,1.917a1,1,0,0,1,.636.643l1.77,5.53,1.83-5.53a1,1,0,0,1,.648-.648l5.53-1.769a.072.072,0,0,0,.02-.009L12.448,9.2a1,1,0,0,1-.652-.661Zm8.17,8.96h0ZM20.5,7a1,1,0,0,1-.97-.757l-.357-1.43L17.74,4.428a1,1,0,0,1,.034-1.94l1.4-.325L19.53.757a1,1,0,0,1,1.94,0l.354,1.418,1.418.355a1,1,0,0,1,0,1.94l-1.418.355L21.47,6.243A1,1,0,0,1,20.5,7Z"/></svg>
+          <h3 class="text-xl font-semibold my-2">UX Design</h3>
+          <p>I've gained experience in crafting intuitive experiences that blend user needs with business goals. In this process, while I've enjoyed aesthetics I've enjoyed speaking to stakeholders and crafting practical solutions that resonate with users and meet needs.</p>
+        </div>
+        <!-- Skill 2 -->
+        <div class="p-6 drop-shadow-lg">
+          <svg class="h-16 w-16 mx-auto" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path d="M19.8,4.419A10.9,10.9,0,0,0,9.453.106,11,11,0,0,0,2.26,17.674,3.886,3.886,0,0,1,3,20.029V21a3,3,0,0,0,3,3h7a3,3,0,0,0,3-3h.494a5.014,5.014,0,0,0,4.957-4.345L21.67,15H22a1.959,1.959,0,0,0,2-2C24,11.58,21.068,5.985,19.8,4.419ZM20.793,13a1,1,0,0,0-.991.869l-.334,2.525A3.008,3.008,0,0,1,16.494,19H15a1,1,0,0,0-1,1v1a1,1,0,0,1-1,1H6a1,1,0,0,1-1-1v-.971a5.9,5.9,0,0,0-1.151-3.571A9,9,0,0,1,9.725,2.088,9.265,9.265,0,0,1,11.005,2a8.941,8.941,0,0,1,7.218,3.648A31.212,31.212,0,0,1,22,13ZM16.2,8.011a1,1,0,0,0-1.366-.369l-.982.564A3.994,3.994,0,0,0,12,7.142V6a1,1,0,0,0-2,0V7.142A3.994,3.994,0,0,0,8.145,8.206l-.982-.564a1,1,0,1,0-1,1.734l.993.571A3.938,3.938,0,0,0,7,11a3.938,3.938,0,0,0,.159,1.053l-.993.571a1,1,0,0,0,1,1.734l.982-.564A3.994,3.994,0,0,0,10,14.858V16a1,1,0,0,0,2,0V14.858a3.994,3.994,0,0,0,1.855-1.064l.982.564a1,1,0,1,0,1-1.734l-.993-.571A3.938,3.938,0,0,0,15,11a3.938,3.938,0,0,0-.159-1.053l.993-.571A1,1,0,0,0,16.2,8.011ZM11,13a2,2,0,1,1,2-2A2,2,0,0,1,11,13Z"/></svg>
+          <h3 class="text-xl font-semibold my-2">Business development</h3>
+          <p>Daily, I engage with businesses of all sizes, demystifying the tech landscape to help them adapt and thrive. I often see my role to translate 'tech-speak' to english, ensuring clients grasp the impact of technology on their success. It's rewarding to witness the transformation and progress we achieve together.</p>
+        </div>
+        <!-- Skill 3 -->
+        <div class="p-6 drop-shadow-lg">
+          <svg class="h-16 w-16 mx-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" fill="none">
+            <path d="M153.01 181.285L66.9825 267.28L153.01 353.275L130 376.285L32.5 278.785V255.775L130 158.275L153.01 181.285ZM380.51 158.275L357.5 181.285L443.528 267.28L357.5 353.275L380.51 376.285L478.01 278.785V255.775L380.51 158.275ZM159.51 422.5L188.565 437.06L351.065 112.06L322.01 97.5L159.51 422.5Z" fill="black"/>
+            </svg>
+          <h3 class="text-xl font-semibold my-2">Development</h3>
+          <p>Outside the confides of my day to day, I've found coding and small side projects as a way to keep on learning about technology and as way to quench my curiosity. Regularly using Python and Javascript for any side projects you may find.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Quick Facts-->
+  <section id="quickfacts" class="min-h-screen">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center text-black mb-10">Fun facts and hobbies</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center text-black">
+        <!-- Fact/Hobby 1 -->
+        <div class="p-4">
+          <img class="rounded-xl mb-4 mx-auto w-full h-auto" src="img/artist.jpg" alt="Part-time artist showing paintings">
+          <p>As you can see I'm a part time artist. Thankfully art is subjective.</p>
+        </div>
+        <!-- Fact/Hobby 2 -->
+        <div class="p-4">
+          <img class="rounded-xl mb-4 mx-auto w-full h-auto" src="img/UTS.jpg" alt="UTS Building 1 looking magestic">
+          <p>I'm an UTS alumni! I studied a Bachelor of IT Co Op.</p>
+        </div>
+        <!-- Fact/Hobby 3 -->
+        <div class="p-4">
+          <img class="rounded-xl mb-4 mx-auto w-full h-auto" src="img/view.jpg" alt="Amazing view of the Sydney skyline">
+          <p>I live in Sydney! Where else can you sip a mortgage-worthy mocha then stroll through some of the best beaches.</p>
+        </div>
+        <!-- Fact/Hobby 4 -->
+        <div class="p-4">
+          <img class="rounded-xl mb-4 mx-auto w-full h-auto" src="img/dog.jpg" alt="Amazing view of the Sydney skyline">
+          <p>I have a dog named Nala who my family adopted in 2015. Pup by day, seal impersonator by night.</p>
+        </div>
+        <!-- Fact/Hobby 5 -->
+        <div class="p-4">
+          <img class="rounded-xl mb-4 mx-auto w-full h-auto" src="img/duolingo bird.png" alt="Duolingo bird">
+          <p>Currently learning some Spanish and German on Duolingo! (Image unrelated).</p>
+        </div>
+        <!-- Fact/Hobby 6 -->
+        <div class="p-4">
+          <img class="rounded-xl mb-4 mx-auto w-full h-auto" src="img/japanesefood.JPG" alt="Japanese food">
+          <p>In my spare time, I enjoy eating out, trying new cuisines, and going to the gym—balance is key, right?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  
+  <!--FOOTER-->
+  <section id="#contact">
+    <div class="text-black max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
+      <nav class="flex flex-wrap justify-center -mx-5 -my-2">
+        <h1 class="text-xl font-bold">Let’s connect</h1>
+      </nav>
+      <nav class="flex flex-wrap justify-center -mx-5 -my-2">
+        <h1 class="font-bold text-l">Feel free to reach out to connect and say hello</h1>
+      </nav>
+      <div class="flex justify-center mt-8 space-x-6">
+        <a href="https://www.linkedin.com/in/eshaan-mahimkar/" class="hover:text-gray-500">
+          <span class="sr-only">LinkedIn</span>
+          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" clip-rule="evenodd"></path>
+          </svg>
+        </a>
+        <a href="mailto:eshquad@gmail.com" class=" hover:text-gray-500">
+          <span class="sr-only">Gmail</span>
+          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" d="M22.288 21h-20.576c-.945 0-1.712-.767-1.712-1.712v-13.576c0-.945.767-1.712 1.712-1.712h20.576c.945 0 1.712.767 1.712 1.712v13.576c0 .945-.767 1.712-1.712 1.712zm-10.288-6.086l-9.342-6.483-.02 11.569h18.684v-11.569l-9.322 6.483zm8.869-9.914h-17.789l8.92 6.229s6.252-4.406 8.869-6.229z" clip-rule="evenodd"></path>
+          </svg>
+        </a>
+        <a href="https://github.com/equader" class=" hover:text-gray-500">
+          <span class="sr-only">GitHub</span>
+          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+            <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
+          </svg>
+        </a>
+      </div>
+      <p class="mt-8 font-bold leading-6 text-center"> © 2023 Eshaan Mahimkar, Inc. All rights reserved. </p>
+    </div>
+  </section>
+  <script src="script.js"></script>
+    
+
   </body>
 </html>

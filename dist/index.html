@@ -1,205 +1,215 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="scroll-smooth hover:scroll-auto" lang="en">
+  
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    />
     <link href="output.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Karla:wght@200;600&family=Montserrat&display=swap" rel="stylesheet">
-    <title>IT Consultant - Eshaan Mahimkar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&&display=swap"
+    rel="stylesheet">
+    <title>
+      IT Consultant - Eshaan Mahimkar
+    </title>
     <link rel="icon" href="img/Main Icon.png" type="image/png" />
   </head>
-
-  <body class="text-black font-karla">
+  
+  <body class="bg-gradient-to-b from-white via-sky-100 to-white text-white font-Inter">
     <!--NAVBAR-->
-    <nav class="px-2 sm:px-4 py-4 fixed w-full z-20 top-0 left-0 transition-transform duration-500 transform bg-white">
+    <nav class="text-black bg-white bg-opacity-60 backdrop-blur-3xl px-2 sm:px-4 py-4 fixed w-full z-20 top-0 left-0 transition-transform duration-500">
       <div class="container flex items-center justify-between mx-auto">
         <!-- Logo -->
         <div class="pt-2">
-          <h1 class="font-bold text-lg text-black">Eshaan Mahimkar.</h1>
+          <h1 class="font-bold text-lg">
+            Eshaan Mahimkar.
+          </h1>
         </div>
         <!-- Menu items -->
         <div class="text-lg font-bold md:flex space-x-6">
-          <a href="index.html" class="text-[#314458] hover:text-gray-100">home</a>
-          <a href="about.html" class="text-black hover:text-gray-100">about</a>
-          <a href="about.html" class="text-black hover:text-gray-100">work</a>
+          <a href="index.html">
+            work
+          </a>
+          <a href="about.html" class="text-gray-500 hover:text-sky-400">
+            about
+          </a>
         </div>
       </div>
     </nav>
-    
-
     <!--HERO-->
-    <div class="bg-slate-50 min-h-screen py-10 mt-6 sm:py-10 lg:py-10 flex place-items-center">
+    <div class="min-h-screen py-10 mt-6 sm:py-10 lg:py-10 flex place-items-center">
       <div class="text-center mx-auto inline-block">
-        <h1 class="leading-loose font-bold text-5xl mb-5 lg:text-5xl max-w-3xl mt-6 mx-auto">
-          Navigating Tech Challenges, Crafting Solutions.
+        <h1 class="font-bold text-black text-5xl mb-5 lg:text-5xl leading-tight max-w-3xl tracking-tight mt-6 mx-auto">
+          Welcome! I'm Eshaan.
+          <br>
+          A tech consultant.
         </h1>
-        <p class="max-w-3xl mt-8 mb-8 font-semibold leading-loose mx-auto lg:text-xl">
-          Hello, I'm Eshaan, an IT consultant from Sydney, Australia. I've got a passion for using technology to solve complex problems and reshape our day to day lives.
+        <p class="max-w-3xl text-black  mt-8 mb-8 leading-loose mx-auto lg:text-2xl">
+          I'm passionate about tech elevating human experiences and shaping businesses for the better.
         </p>
-        <p class="text-orange-400 underline-offset-2 font-semibold"><a href="#projects" onclick="smoothScrollTo('#projects')">Have a look</a></p>
+        <button class="bg-[#333333] hover:bg-black text-white font-bold py-2 px-4 rounded">
+          <a href="#projects" onclick="smoothScrollTo('#projects')">
+            See some of my experiences
+          </a>
+        </button>
       </div>
     </div>
-
-   
-
     <!--PROJECTS-->
-    <section id="projects" class="bg-slate-50 py-10 sm:py-10 lg:py-10 font-bold">
+    <section id="projects" class="py-10 sm:py-10 lg:py-10 font-bold">
       <div class="px-4 py-4 mx-auto max-w-7xl sm:px-6 lg:px-8 rounded-lg">
-         <div class="max-w-2xl mx-auto text-center">
-            <h1 class="font-bold text-5xl mb-5 lg:text-5xl leading-tight max-w-3xl tracking-tight mt-6 mx-auto">Selected work and stories</h1>
-         </div>
-         <div class="mx-auto px-2 py-8">
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
-               <div>
-                  <a href="#" title="" class="block aspect-w-4 aspect-h-3">
-                  <img class="object-cover w-full h-full" src="img/prpinkbg.png" alt="" style="filter: invert(0);">
-                  </a>
-                  <span class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-rose-500 bg-rose-100 mt-9"> Technology </span>
-                  <p class="mt-6 text-xl font-semibold">
-                     <a href="#" title="" class="text-black">How might we ensure people look after their posture in the most convenient and stylish way? </a>
-                  </p>
-                  <div class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"></div>
-               </div>
-               <div>
-                  <a href="#" title="" class="block aspect-w-4 aspect-h-3">
-                  <img class="object-cover w-full h-full" src="img/tsmar.png" alt="" style="filter: invert(0);">
-                  </a>
-                  <span class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-rose-500 bg-rose-100 mt-9"> Technology </span>
-                  <p class="mt-6 text-xl font-semibold">
-                     <a href="#" title="" class="text-black">How might we continue to market a university society focused on the broadness of IT?</a>
-                  </p>
-                  <div class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"></div>
-               </div>
-               <div>
-                  <a href="#" title="" class="block aspect-w-4 aspect-h-3">
-                  <img class="object-cover w-full h-full" src="img/nfpconsult.png" alt="" style="filter: invert(0);">
-                  </a>
-                  <span class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-rose-500 bg-rose-100 mt-9"> Technology </span>
-                  <p class="mt-6 text-xl font-semibold">
-                     <a href="#" title="" class="text-black">How might we allow an eco friendly NFP flourish in a digital world?</a>
-                  </p>
-                  <div class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"></div>
-               </div>
-               <div>
-                  <a href="#" title="" class="block aspect-w-4 aspect-h-3">
-                  <img class="object-cover w-full h-full" src="img/nfpdev2.png" alt="" style="filter: invert(0);">
-                  </a>
-                  <span class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-rose-500 bg-rose-100 mt-9"> Technology </span>
-                  <p class="mt-6 text-xl font-semibold">
-                     <a href="#" title="" class="text-black">How might we develop a software solution within the confines of an NFP?</a>
-                  </p>
-                  <div class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"></div>
-               </div>
-               <div>
-                  <a href="#" title="" class="block aspect-w-4 aspect-h-3">
-                  <img class="object-cover w-full h-full" src="img/bankdesign.png" alt="" style="filter: invert(0);">
-                  </a>
-                  <span class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-rose-500 bg-rose-100 mt-9"> Technology </span>
-                  <p class="mt-6 text-xl font-semibold">
-                     <a href="#" title="" class="text-black">How might we continue breathe new life into an archaic banking product?</a>
-                  </p>
-                  <div class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed"></div>
-               </div>
+        <div class="max-w-2xl mx-auto text-center">
+          <h1 class="font-bold text-black text-5xl mb-5 lg:text-5xl leading-tight max-w-3xl tracking-tight mt-6 mx-auto">
+            Selected work and stories
+          </h1>
+          <p class="max-w-3xl font-medium text-black  mt-8 mb-8 leading-loose mx-auto lg:text-2xl">
+            Below is a blend of projects, thoughts and anything in between. Everything
+            presented is my own opinion and should be regarded as such.
+          </p>
+        </div>
+        <div class="mx-auto px-2 py-8">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+            <div>
+              <a href="#" title="" class="block aspect-w-4 aspect-h-3">
+                <img class="object-cover w-full h-full rounded-xl" src="img/thumbnails/Cover - PostureRight.png"
+                alt="" style="filter: invert(0);">
+              </a>
+              <span class="inline-flex px-4 py-2 text-xs tracking-widest uppercase rounded-full text-rose-500 bg-rose-100 mt-9">
+                Design
+              </span>
+              <p class="mt-6 text-xl font-semibold">
+                <a href="#" title="" class="text-black">
+                  How might we ensure people look after their posture in the most convenient
+                  and stylish way?
+                </a>
+              </p>
+              <div class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed">
+              </div>
             </div>
-         </div>
+            <div>
+              <a href="#" title="" class="block aspect-w-4 aspect-h-3">
+                <img class="object-cover w-full h-full rounded-xl" src="img/thumbnails/Cover - NFP DB Dev.png"
+                alt="" style="filter: invert(0);">
+              </a>
+              <span class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-green-500 bg-green-100 mt-9">
+                Software Dev
+              </span>
+              <p class="mt-6 text-xl font-semibold">
+                <a href="#" title="" class="text-black">
+                  How can we deliver a software solution to help digitise field work in
+                  remote areas?
+                </a>
+              </p>
+              <div class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed">
+              </div>
+            </div>
+            <div>
+              <a href="#" title="" class="block aspect-w-4 aspect-h-3">
+                <img class="object-cover w-full h-full rounded-xl" src="img/thumbnails/Cover - Design at bank.png"
+                alt="Designing at a bank" style="filter: invert(0);">
+              </a>
+              <span class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-rose-500 bg-rose-100 mt-9">
+                Design
+              </span>
+              <p class="mt-6 text-xl font-semibold">
+                <a href="#" title="" class="text-black">
+                  How can we breathe life into an outdated banking product?
+                </a>
+              </p>
+              <div class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed">
+              </div>
+            </div>
+            <div>
+              <a href="#" title="" class="block aspect-w-4 aspect-h-3">
+                <img class="object-cover w-full h-full rounded-xl" src="img/thumbnails/Cover - Consulting for an NFP.png"
+                alt="" style="filter: invert(0);">
+              </a>
+              <span class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-blue-500 bg-blue-100 mt-9">
+                Consulting
+              </span>
+              <p class="mt-6 text-xl font-semibold">
+                <a href="#" title="" class="text-black">
+                  How might we allow an eco friendly non-for-profit flourish in a digital
+                  world?
+                </a>
+              </p>
+              <div class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed">
+              </div>
+            </div>
+            <div>
+              <a href="#" title="" class="block aspect-w-4 aspect-h-3">
+                <img class="object-cover w-full h-full rounded-xl" src="img/thumbnails/Cover - NFP Software Dev.png"
+                alt="" style="filter: invert(0);">
+              </a>
+              <span class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-green-500 bg-green-100 mt-9">
+                Software Dev
+              </span>
+              <p class="mt-6 text-xl font-semibold">
+                <a href="#" title="" class="text-black">
+                  How can we deliver a software solution to help local populations identify
+                  and find sanitary locations?
+                </a>
+              </p>
+              <div class="h-0 mt-6 mb-4 border-t-2 border-gray-200 border-dashed">
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-   </section>
-
-   <!--FOOTER-->
-   <section class="">
-    <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
-      <nav class="flex flex-wrap justify-center -mx-5 -my-2">
-        <h1 class="text-xl font-bold">Let’s connect</h1>
-      </nav>
-      <nav class="flex flex-wrap justify-center -mx-5 -my-2">
-        <h1 class="font-bold text-l">Feel free to reach out to connect and say hello</h1>
-      </nav>
-      <div class="flex justify-center mt-8 space-x-6">
-        <a href="https://www.linkedin.com/in/eshaan-mahimkar/" class="hover:text-gray-500">
-          <span class="sr-only">LinkedIn</span>
-          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
-            <path fill-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" clip-rule="evenodd"></path>
-          </svg>
-        </a>
-        <a href="#" class=" hover:text-gray-500">
-          <span class="sr-only">Gmail</span>
-          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
-            <path fill-rule="evenodd" d="M22.288 21h-20.576c-.945 0-1.712-.767-1.712-1.712v-13.576c0-.945.767-1.712 1.712-1.712h20.576c.945 0 1.712.767 1.712 1.712v13.576c0 .945-.767 1.712-1.712 1.712zm-10.288-6.086l-9.342-6.483-.02 11.569h18.684v-11.569l-9.322 6.483zm8.869-9.914h-17.789l8.92 6.229s6.252-4.406 8.869-6.229z" clip-rule="evenodd"></path>
-          </svg>
-        </a>
-        <a href="https://github.com/equader" class=" hover:text-gray-500">
-          <span class="sr-only">GitHub</span>
-          <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
-            <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path>
-          </svg>
-        </a>
+    </section>
+    <!--FOOTER-->
+    <section id="#contact">
+      <div class="text-black max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
+        <nav class="flex flex-wrap justify-center -mx-5 -my-2">
+          <h1 class="text-xl font-bold">
+            Let’s connect
+          </h1>
+        </nav>
+        <nav class="flex flex-wrap justify-center -mx-5 -my-2">
+          <h1 class="font-bold text-l">
+            Feel free to reach out to connect and say hello
+          </h1>
+        </nav>
+        <div class="flex justify-center mt-8 space-x-6">
+          <a href="https://www.linkedin.com/in/eshaan-mahimkar/" class="hover:text-gray-500">
+            <span class="sr-only">
+              LinkedIn
+            </span>
+            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+              <path fill-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+              clip-rule="evenodd">
+              </path>
+            </svg>
+          </a>
+          <a href="mailto:eshquad@gmail.com" class=" hover:text-gray-500">
+            <span class="sr-only">
+              Gmail
+            </span>
+            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+              <path fill-rule="evenodd" d="M22.288 21h-20.576c-.945 0-1.712-.767-1.712-1.712v-13.576c0-.945.767-1.712 1.712-1.712h20.576c.945 0 1.712.767 1.712 1.712v13.576c0 .945-.767 1.712-1.712 1.712zm-10.288-6.086l-9.342-6.483-.02 11.569h18.684v-11.569l-9.322 6.483zm8.869-9.914h-17.789l8.92 6.229s6.252-4.406 8.869-6.229z"
+              clip-rule="evenodd">
+              </path>
+            </svg>
+          </a>
+          <a href="https://github.com/equader" class=" hover:text-gray-500">
+            <span class="sr-only">
+              GitHub
+            </span>
+            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+              <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+              clip-rule="evenodd">
+              </path>
+            </svg>
+          </a>
+        </div>
+        <p class="mt-8 font-bold leading-6 text-center">
+          © 2023 Eshaan Mahimkar, Inc. All rights reserved.
+        </p>
       </div>
-      <p class="mt-8 font-bold leading-6 text-center"> © 2023 Eshaan Mahimkar, Inc. All rights reserved. </p>
-    </div>
-  </section>
-    
-
-    
-    <!--JAVASCRIPT-->
-    <script>
-      // Debounce function to delay hiding the navbar
-      function debounce(func, delay) {
-          let timer;
-          return function () {
-              clearTimeout(timer);
-              timer = setTimeout(func, delay);
-          };
-      }
-
-      let prevScrollPos = window.pageYOffset;
-      const navbar = document.querySelector('nav');
-
-      function hideNavbarOnScroll() {
-          const currentScrollPos = window.pageYOffset;
-
-          if (prevScrollPos > currentScrollPos || currentScrollPos === 0) {
-              // Scrolling up or at the top, show the navigation bar
-              navbar.classList.remove('-translate-y-full');
-          } else {
-              // Scrolling down, hide the navigation bar
-              navbar.classList.add('-translate-y-full');
-          }
-
-          prevScrollPos = currentScrollPos;
-      }
-
-      // Add event listener with debouncing (increased delay to 200ms)
-      window.addEventListener('scroll', debounce(hideNavbarOnScroll, 200));
-
-      // Smooth scroll function
-      // Smooth scroll function
-    function smoothScrollTo(target) {
-        const targetElement = document.querySelector(target);
-        if (!targetElement) return;
-
-        // Get the top offset of the target element relative to the document
-        const elementOffsetTop = targetElement.getBoundingClientRect().top;
-
-        // Calculate the total offset by adding the current scroll position
-        const offset = elementOffsetTop + window.pageYOffset; // Adjust the value based on your layout
-
-        window.scrollTo({
-            top: offset,
-            behavior: 'smooth'
-        });
-    }
-
-      // Add a click event listener to all links with the smooth scroll class
-      const smoothScrollLinks = document.querySelectorAll('a[href^="#"]');
-      smoothScrollLinks.forEach(link => {
-          link.addEventListener('click', function (event) {
-              event.preventDefault();
-              smoothScrollTo(this.getAttribute('href'));
-          });
-      });
-  </script>
+    </section>
+    <script src="script.js">
+    </script>
   </body>
+
 </html>

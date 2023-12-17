@@ -10,9 +10,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage" :"https://equader.github.io/equader.github.io",
+  "homepage": "https://github.com/equader/eshaanwebsite2023#readme",
   "devDependencies": {
-    "tailwindcss": "^3.2.4"
+    "tailwindcss": "^3.3.6"
   },
   "dependencies": {
     "acorn": "^7.4.1",
@@ -69,6 +69,7 @@
     "run-parallel": "^1.2.0",
     "source-map-js": "^1.0.2",
     "supports-preserve-symlinks-flag": "^1.0.0",
+    "tailwind": "^4.0.0",
     "to-regex-range": "^5.0.1",
     "util-deprecate": "^1.0.2",
     "xtend": "^4.0.2",
@@ -80,6 +81,5 @@
   },
   "bugs": {
     "url": "https://github.com/equader/eshaanwebsite2023/issues"
-  },
-  "homepage": "https://github.com/equader/eshaanwebsite2023#readme"
+  }
 }
